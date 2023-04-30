@@ -1,0 +1,141 @@
+/* Estilização 
+Font-size: 1em (geral)
+font-size: 2.5em (Titulo da pagina)
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 
+cores:
+background-color: #f7b6000; (cabecalho e das postagens)
+background-color: #e6e6e6; (body)
+background: #ccc; (rodapé)
+Cor do titulo: #4e4e4e; (rodapé)
+Cor do rodapé: #565656;
+*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+.area-cabecalho{
+    background: rgb(0, 156, 247);
+    padding: 15px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 23, 128, );
+    font-size: 2.5em;
+    
+}
+
+.color{
+    color: whitesmoke;
+}
+
+.area-logo, .area-menu{
+    padding: 8px;
+}
+
+.area-menu{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.area-menu a:link{
+    color: whitesmoke;
+}
+
+.area-menu a:hover{
+    background: white;
+    color: rgb(0, 23, 128);
+}
+
+.area-principal{
+    margin:0 auto;
+    width: 920px;
+    padding: 15px;
+}
+
+.area-postagem{
+    width:660px;
+    float: left;
+}
+
+.area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding:20px;
+    margin-bottom: 20px;
+    background: whitesmoke;
+}
+
+h2{
+    color: #009cf7;
+}
+
+.data{
+    display: block;
+    font-size: .8em;
+    border-bottom:1px solid #f4f4f4 ;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.postagem a{
+    display: block;
+    padding-top: 10px;
+    color: #009cf7;
+}
+
+.postagem a:hover{
+    text-decoration: underline;
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.conteudo-lateral a{
+    color:#009cf7;
+}
+
+.conteudo-lateral a:hover{
+    text-decoration: underline;
+}
+
+.postagem-lateral{
+    font-size: .8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
